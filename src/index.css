@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+
+*{
+    font-family: "Briem Hand", cursive;
+}
+
+body{
+  background-color: rgb(142, 69, 211);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 250px;
+}
+
+
+.advice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 900px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.advice h2{
+    color: lightcoral;
+}
+
+.advice span{
+    color: orange;
+    background-color: white;
+    border: 1px solid red;
+    padding:3px;
+    border-radius: 40%;
+
+}
+
+.advice button{
+    color:rgb(18, 177, 180);
+    background-color: crimson;
+    margin:20px 0;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: background-color 0.85s;
+}
+
+.advice button:hover,
+.advice button:focus{
+    color:crimson;
+    background-color:rgb(18, 177, 180);
+}
+
